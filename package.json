@@ -1,0 +1,34 @@
+{
+  "name": "esbuild-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "cross-env MODE=production ts-node config/build/esbuild-prod.ts",
+    "start": "ts-node config/build/esbuild-dev.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/734maboy/esbuild-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/734maboy/esbuild-practice/issues"
+  },
+  "homepage": "https://github.com/734maboy/esbuild-practice#readme",
+  "devDependencies": {
+    "@types/node": "^18.0.1",
+    "@types/react": "^18.0.14",
+    "@types/react-dom": "^18.0.5",
+    "cross-env": "^7.0.3",
+    "esbuild": "^0.14.48",
+    "ts-node": "^10.8.2",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
